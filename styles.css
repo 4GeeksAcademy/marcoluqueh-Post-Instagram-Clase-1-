@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    background-color: black;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* border-style: dashed;
+    border-color: red;
+    border-width: 1px; */
+}
+.wrapper{
+    margin: 0 auto;
+    height: fit-content;
+    width: 40%;
+    /* border-style: dashed;
+    border-color: red;
+    border-width: 1px; */
+}
+
+.photo{
+    margin: 6% 0;
+    min-width: 50%;
+    min-height: 100px;
+    background-color: white;
+    /* border-style: dashed;
+    border-color: red;
+    border-width: 1px; */
+}
+
+.head{
+    display: flex;
+
+    /* border-style: dashed;
+    border-color: red;
+    border-width: 1px; */
+}
+
+.imagenPerfil{
+    align-self: center;
+        /* border-style: dashed;
+        border-color: red;
+        border-width: 1px; */
+}
+
+.title{
+    margin: 0;
+    justify-content: flex-start;
+    font-size: small;
+    flex-grow: 95;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 3%;
+    /* border-style: dashed;
+    border-color: red;
+    border-width: 1px; */
+}
+.fa-html5{
+    align-self: center;
+    vertical-align: middle;
+    font-size: x-large;
+    padding-left: 10px;
+}
+.title strong{
+    margin: 0;
+}
+.title p{
+    margin: 0;
+}
+.fa-ellipsis-vertical{
+    align-self: center;
+    vertical-align: middle;
+    font-size: larger;
+    padding-right: 15px;
+}
+
+.iconos{
+    display: flex;
+    font-size: larger;
+}
+.iconosInstaIzq{
+    flex-grow: 95;
+    padding-top: 5px;
+    padding-left: 15px;
+    /* border-style: dashed;
+    border-color: red;
+    border-width: 1px; */
+}
+
+.iconosInstaDer{
+    flex-grow: 5;
+    padding-top: 5px;
+    padding-left: 15px;
+    /* border-style: dashed;
+    border-color: red;
+    border-width: 1px; */
+} 
+img{
+    width: 100%;
+    height: 100%;
+}
+.descripcion{
+    padding-bottom: 5px;
+}
+.descripcion p{
+    padding-left: 3%;
+    /* font-weight: lighter; */
+    margin-right: 3%;
+    font-size: smaller;
+    
+}
